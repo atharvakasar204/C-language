@@ -9,7 +9,7 @@ int main() {
     scanf("%c", &operator);
 
     printf("Enter two numbers: ");
-    scanf("%lf %lf", &num1, &num2);
+    scanf("\n%lf %lf", &num1, &num2);
 
     // Perform calculation based on operator
     switch (operator) {
